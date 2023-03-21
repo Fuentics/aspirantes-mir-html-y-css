@@ -8,6 +8,34 @@
     <title>Login</title>
 </head>
 <body>
-    
+    <div class="form">
+        <form action="#">
+            <div class="header">
+                <h1>Login</h1>
+            </div>
+            <div class="field">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" required>
+            </div>
+            <div class="field">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+            </div>    
+            <div class="field">
+                <label for="genero">Género</label>
+                <select name="genero" id="genero">
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                </select>
+            </div>        
+            <div class="check">
+                <input type="checkbox" name="terms" id="terms">
+                <label for="terms">Acepto los términos</label>
+            </div>
+            <div class="submit">
+                <button type="submit">Ingresar</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

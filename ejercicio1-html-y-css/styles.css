@@ -1,0 +1,60 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+.form{
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: linear-gradient(#bd09b7 , #6b4cf5);
+    box-shadow: 7px 7px 15px #423f3d;
+    position: relative;
+}
+@media (min-width: 500px){
+    .form{
+        width: 300px;
+    }
+}
+@media (max-width: 500px){
+    .form{
+        width: 100%;
+    }
+}    
+.header h1{
+    margin: 0px 0 10px 5px;
+}
+.field{
+    padding: 7px;
+}
+.field input {
+    width: 100%;
+    padding: 7px;
+    border: 50px;
+    color: black;
+}
+.field label {
+    width: 100%;
+    display: block;
+    width: 100%;
+}
+.field select, option{
+    color: black;
+    width: 100%;
+    padding: 7px;
+}
+.check{
+    color: black;
+    width: 100%;
+    padding: 7px;
+}
+.submit{
+    float: right;
+    padding: 7px;
+}
+.submit button{
+    color: black;
+    padding: 7px 15px;
+}
